@@ -17,26 +17,19 @@
       "from_s": 2,
       "to_s": 4,
       "duration_s": 2,
-      "reasons": [
-        "too_far"
-      ]
+      "reasons": ["too_far"]
     },
     {
       "from_s": 4,
       "to_s": 6,
       "duration_s": 2,
-      "reasons": [
-        "stop_mismatch"
-      ]
+      "reasons": ["stop_mismatch"]
     },
     {
       "from_s": 6,
       "to_s": 12,
       "duration_s": 6,
-      "reasons": [
-        "observation_gap"
-      ]
+      "reasons": ["observation_gap"]
     }
   ]
 }
-

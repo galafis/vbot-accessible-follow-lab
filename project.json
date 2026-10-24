@@ -1,0 +1,33 @@
+{
+  "slug": "vbot-accessible-follow-lab",
+  "short": {
+    "en": "Companion Follow Lab",
+    "pt": "Laboratório de Acompanhamento"
+  },
+  "tag": {
+    "en": "Following & accessibility",
+    "pt": "Acompanhamento e acessibilidade"
+  },
+  "headline": {
+    "en": "When following feels right.",
+    "pt": "Acompanhar no ritmo de cada pessoa."
+  },
+  "description": {
+    "en": "Explore distance, pace and pauses in a companion-following study. See what was observed, what needs review and where the evidence is missing.",
+    "pt": "Explore distância, ritmo e pausas num estudo de acompanhamento. Veja o que foi observado, o que merece revisão e onde faltam evidências."
+  },
+  "color": "#176a62",
+  "question": {
+    "en": "How much of a recorded walk matches the participant's chosen preferences?",
+    "pt": "Quanto do percurso observado corresponde às preferências escolhidas pelo participante?"
+  },
+  "method": "Time-weighted interval analysis with explicit unknown gaps",
+  "outcome": {
+    "en": "A timeline that separates preference matches, review events and missing observations.",
+    "pt": "Uma linha do tempo separa preferências atendidas, eventos para revisão e lacunas de observação."
+  },
+  "number": 1,
+  "version": "0.2.0",
+  "source": "https://github.com/galafis/vbot-accessible-follow-lab",
+  "demo": "https://galafis.github.io/vbot-accessible-follow-lab/"
+}

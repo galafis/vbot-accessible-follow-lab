@@ -1,0 +1,67 @@
+[
+  {
+    "id": "baseline",
+    "title": {
+      "pt": "Percurso com lacunas",
+      "en": "Walk with gaps"
+    },
+    "context": {
+      "pt": "Distância excessiva, parada desencontrada e um intervalo sem observação.",
+      "en": "Too far, a stop mismatch and an unobserved interval."
+    },
+    "file": "baseline.json",
+    "expected": "expected.json"
+  },
+  {
+    "id": "steady-follow",
+    "title": {
+      "pt": "Ritmo consistente",
+      "en": "Steady companion"
+    },
+    "context": {
+      "pt": "Oito intervalos observados e uma pausa acompanhada.",
+      "en": "Eight observed intervals and a matched pause."
+    },
+    "file": "steady-follow.json",
+    "expected": "steady-follow.expected.json"
+  },
+  {
+    "id": "observation-gap",
+    "title": {
+      "pt": "O que não foi visto",
+      "en": "What was not seen"
+    },
+    "context": {
+      "pt": "Retire observações intermediárias e veja a evidência diminuir.",
+      "en": "Remove intermediate samples and watch the evidence shrink."
+    },
+    "file": "observation-gap.json",
+    "expected": "observation-gap.expected.json"
+  },
+  {
+    "id": "stop-review",
+    "title": {
+      "pt": "A pausa precisa de revisão",
+      "en": "A pause to review"
+    },
+    "context": {
+      "pt": "A pessoa parou; o registro ainda indica movimento do robô.",
+      "en": "The person stopped while the record still reports robot movement."
+    },
+    "file": "stop-review.json",
+    "expected": "stop-review.expected.json"
+  },
+  {
+    "id": "personal-preferences",
+    "title": {
+      "pt": "Preferências diferentes",
+      "en": "Different preferences"
+    },
+    "context": {
+      "pt": "O mesmo percurso sob limites mais estreitos de distância e ritmo.",
+      "en": "The same walk under narrower distance and pace preferences."
+    },
+    "file": "personal-preferences.json",
+    "expected": "personal-preferences.expected.json"
+  }
+]
