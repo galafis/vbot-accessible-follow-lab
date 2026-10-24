@@ -1,0 +1,42 @@
+{
+  "mode": "offline_observation_replay",
+  "total_s": 12,
+  "observed_s": 6,
+  "unknown_s": 6,
+  "preference_match_s": 2,
+  "preference_match_fraction": 0.3333,
+  "stop_mismatch_s": 2,
+  "intervals": [
+    {
+      "from_s": 0,
+      "to_s": 2,
+      "duration_s": 2,
+      "reasons": []
+    },
+    {
+      "from_s": 2,
+      "to_s": 4,
+      "duration_s": 2,
+      "reasons": [
+        "too_far"
+      ]
+    },
+    {
+      "from_s": 4,
+      "to_s": 6,
+      "duration_s": 2,
+      "reasons": [
+        "stop_mismatch"
+      ]
+    },
+    {
+      "from_s": 6,
+      "to_s": 12,
+      "duration_s": 6,
+      "reasons": [
+        "observation_gap"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,16 @@
+{
+  "name": "vbot-accessible-follow-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Replay operator observations of Vbot native following, identify long observation gaps and compare participant-selected distance and pace preferences.",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node cli.mjs examples/baseline.json",
+    "serve": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
